@@ -9,8 +9,8 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 IMAGE_HEIGHT = 352
 IMAGE_WIDTH = 640
 INPUT_SIZE = (IMAGE_HEIGHT, IMAGE_WIDTH)
-DATASET_PATH = "inference_fields/testing_images/"
-RESULTS_DIR = 'inference_fields/results/'
+DATASET_PATH = "inference/testing_images/"
+RESULTS_DIR = 'inference/results/'
 PRETRAINED_MODEL_PATH = 'model.pth.tar'
 
 
