@@ -14,19 +14,11 @@ Figure: Some predictions after retraining the ESNet model on 24 images for 15 ep
 
 * Python 3.7 +
 * PyTorch 1.8.0+cu101
-* torchvision 0.8.1+cu101
+* Torchvision 0.8.1+cu101
 * NumPy, SciPy, PIL
-* tqdm 4.59.0 +
-* cv2 4.3 +
+* Tqdm 4.59.0 +
+* OpenCV 4.3 +
 
-## Get From Drive 
-
-### [Dataset to train The Weights](https://drive.google.com/drive/folders/1Kjm1JbZkHjbbGurMD5pcw7IudjrAoCdD?usp=sharing) 
-### [Dataset to retrain The Model](https://drive.google.com/drive/folders/10VaIId4WzPYqpJeVpo1F6kyGkTzs0a0p?usp=sharing)
-
-### [Pre-trained Weights](https://drive.google.com/file/d/1TqmS0uPRU-9xubKZ4jYsaVTPBmFnOfSm/view?usp=sharing) 
-
-### [Trained Model](https://drive.google.com/file/d/1hrRGjg2ScLUwIRmnZBpMry4TOp0_7_x_/view?usp=sharing) 
 
 ## Usage
 
@@ -44,7 +36,7 @@ TRAIN_IMG_DIR, TRAIN_MASK_DIR, VAL_IMG_DIR, VAL_MASK_DIR
 * Make sure to replace dataset directories :
 TRAIN_IMG_DIR, TRAIN_MASK_DIR, VAL_IMG_DIR, VAL_MASK_DIR
 * Set the LOAD_MODEL to True.
-* Add the saved weights "weights.pth.tar" in same loaction as train.py file.
+* Add the saved weights "model.pth.tar" in same loaction as train.py file.
 *  Create a Directory "saved_images" in same location as train.py file, It's where the model will place the visualization of ground-truth and prediction after each Epoch.
 * The number of Epochs can be 10 at least.
 * Run train.py
