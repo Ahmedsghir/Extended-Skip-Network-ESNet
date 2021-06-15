@@ -4,10 +4,6 @@ Implimentation of ESNet using Pytorch framework.
 
 Official paper link: [https://www.frontiersin.org/articles/10.3389/fpls.2019.01404/full](https://www.frontiersin.org/articles/10.3389/fpls.2019.01404/full "https://www.frontiersin.org/articles/10.3389/fpls.2019.01404/full")
 
-![inferences](https://user-images.githubusercontent.com/39106620/114217881-0afe8400-9969-11eb-9e22-f1242b33f71f.gif)
-
-Figure: Some predictions after retraining the ESNet model on 24 images for 15 epochs
-
 ## Get Started
 
 ### Environment
